@@ -27,9 +27,17 @@ button {
 #start-btn {
   background-color: #FFFFFF;
   color: #228b22;
+  order: 1;
 }
 
 #reset-btn {
   background-color: #FFFFFF;
   color: #800000;
+  order: 3;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
 }
